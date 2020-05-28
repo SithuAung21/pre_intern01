@@ -1,0 +1,20 @@
+body{
+    background:cornflowerblue;
+    font-size: 14;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    font-family: sans-serif;
+     }
+     h1{
+         text-align: left;
+         font-weight: bold;
+         color: brown;
+         font-family: 'Times New Roman', Times, serif;
+     }
+     p{
+         text-align: right;
+         font-size: 15;
+         font-style: italic;
+         font-family: monospace;
+     }
