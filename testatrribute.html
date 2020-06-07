@@ -1,0 +1,72 @@
+<!Doctype html>
+<html>
+  <head>
+   <title>Test Link</title>
+   <style>
+       input[type=text]{
+           background-color:darkcyan;
+       }
+       input[type=radio]{
+           background-color:darkgoldenrod;
+       }
+       input[type=password]{
+           background-color:darkgreen;
+       }
+       input[type=number]{
+           background-color:darkred;
+       }
+       
+   </style>
+  </head>
+  <body>
+     <form>
+
+        <div>
+            <input name="First Name" type="text" placeholder="First Name"><br>
+            <input name="Last Name" type="text" placeholder="Last Name"><br>
+            <input name= "Name" type="number" placeholder="age"><br>
+            <input name="Password" type="password" placeholder="Password"><br>
+        </div>
+
+        <div>
+            Favouriate Language?
+            <input name="Language" type="radio" value="java">Java
+            <input name="Language" type="radio" value="php">PHP
+            <input name="Language" type="radio" value="python">Python
+            <input name="Language" type="radio" value="C#">C#
+        </div>
+
+        <div>
+            <input name="country" list="countries" placeholder="Country">
+            <datalist id="countries">
+                <option value="Greek">
+                <option value="Rominia">
+                <option value="Russia">
+                <option value="China">
+                <option value="Thailand">
+                <option value="Cambodia">
+                <option value="Indonesia">
+                <option value="Laos">
+                <option value="Switzaland">
+                <option value="Brazil">
+                <option value="Germany">
+                <option value="Iraland">
+                <option value="Greenland">
+                </option>
+                </option>  
+                </option>
+                </option>
+                </option>
+                </option>
+                </option>
+                </option>
+                </option>
+                </option>
+                </option>
+                </option>
+                </option>
+            </datalist>
+        </div>
+     </form>
+</body>
+</html>
